@@ -1,33 +1,23 @@
-// alert (hola)
 
-// let nombre1 = prompt("ingresar nombre")
-// console.log(nombre1)
-
-// let nombre2 = prompt("ingresar nombre")
-// console.log(nombre2)
-
-// funciones de declaracion
-
-// function hacerAlgo () {
-
-//     // pasos que tiene que hacer la funcion
-//   console.log("despertarse")
-//   console.log("levantarse")
-//   console.log("desayunar")  
-// }
- 
-
-// // ejecutar una funcion (abrir contexto de ejecucion)
-// hacerAlgo()
+let usuario = ""
 let nombre = ""
 let apellido = ""
+let dni = ""
+let genero = ""
 let edad = ""
 let domicilio = ""
+let contraseña = ""
 
 for(i = 0; i < 1; i +=1){
+  usuario += prompt("ingrese su usuario")
   nombre += prompt("ingrese su nombre")
   apellido += prompt("ingrese su apellido")
+  dni += prompt("ingrese su dni")
+  genero += prompt("ingrese su genero")
   edad += prompt("ingrese su edad")
   domicilio += prompt("ingrese su domicilio")
+  contraseña += prompt("ingrese su contrtaseña")  
 }
-console.log(nombre + " " + apellido + " " + edad + " " + domicilio);
+
+
+console.log(usuario + " " + nombre + " " + apellido + " " + dni + " " + genero + " " + edad + " " + domicilio + " " + contraseña);
